@@ -1,0 +1,1266 @@
+{
+  "initial_timestamp": "2017-01-14T15:07:57",
+  "max_core_supply": "1000000000000000",
+  "initial_parameters": {
+    "current_fees": {
+      "parameters": [[
+          0,{
+            "fee": 20000,
+            "price_per_kbyte": 10000
+          }
+        ],[
+          1,{
+            "fee": 5000
+          }
+        ],[
+          2,{
+            "fee": 0
+          }
+        ],[
+          3,{
+            "fee": 20000
+          }
+        ],[
+          4,{}
+        ],[
+          5,{
+            "basic_fee": 5000,
+            "premium_fee": 2000000,
+            "price_per_kbyte": 1000
+          }
+        ],[
+          6,{
+            "fee": 20000,
+            "price_per_kbyte": 1000
+          }
+        ],[
+          7,{
+            "fee": 3000
+          }
+        ],[
+          8,{
+            "membership_annual_fee": 2000000,
+            "membership_lifetime_fee": 10000000
+          }
+        ],[
+          9,{
+            "fee": 500000
+          }
+        ],[
+          10,{
+            "symbol3": "500000000",
+            "symbol4": "300000000",
+            "long_symbol": 5000000,
+            "price_per_kbyte": 1
+          }
+        ],[
+          11,{
+            "fee": 500000,
+            "price_per_kbyte": 1
+          }
+        ],[
+          12,{
+            "fee": 500000
+          }
+        ],[
+          13,{
+            "fee": 500000
+          }
+        ],[
+          14,{
+            "fee": 20000,
+            "price_per_kbyte": 1000
+          }
+        ],[
+          15,{
+            "fee": 20000
+          }
+        ],[
+          16,{
+            "fee": 1000
+          }
+        ],[
+          17,{
+            "fee": 100000
+          }
+        ],[
+          18,{
+            "fee": 500000
+          }
+        ],[
+          19,{
+            "fee": 1000
+          }
+        ],[
+          20,{
+            "fee": 5000000
+          }
+        ],[
+          21,{
+            "fee": 20000
+          }
+        ],[
+          22,{
+            "fee": 20000,
+            "price_per_kbyte": 1
+          }
+        ],[
+          23,{
+            "fee": 20000,
+            "price_per_kbyte": 1
+          }
+        ],[
+          24,{
+            "fee": 1000
+          }
+        ],[
+          25,{
+            "fee": 1000
+          }
+        ],[
+          26,{
+            "fee": 1000
+          }
+        ],[
+          27,{
+            "fee": 20000,
+            "price_per_kbyte": 1
+          }
+        ],[
+          28,{
+            "fee": 0
+          }
+        ],[
+          29,{
+            "fee": 5000000
+          }
+        ],[
+          30,{
+            "fee": 20000
+          }
+        ],[
+          31,{
+            "fee": 1000
+          }
+        ],[
+          32,{
+            "fee": 1000
+          }
+        ],[
+          33,{
+            "fee": 20000
+          }
+        ],[
+          34,{
+            "fee": 5000000
+          }
+        ],[
+          35,{
+            "fee": 1000,
+            "price_per_kbyte": 1
+          }
+        ],[
+          36,{
+            "fee": 1000
+          }
+        ],[
+          37,{}
+        ],[
+          38,{
+            "fee": 20000,
+            "price_per_kbyte": 1
+          }
+        ],[
+          39,{
+            "fee": 5000,
+            "price_per_output": 5000
+          }
+        ],[
+          40,{
+            "fee": 5000,
+            "price_per_output": 5000
+          }
+        ],[
+          41,{
+            "fee": 5000
+          }
+        ],[
+          42,{}
+        ],[
+          43,{
+            "fee": 20000
+          }
+        ],[
+          44,{}
+        ]
+      ],
+      "scale": 10000
+    },
+    "block_interval": 3,
+    "maintenance_interval": 14400,
+    "maintenance_skip_slots": 3,
+    "council_proposal_review_period": 1209600,
+    "maximum_transaction_size": 2048,
+    "maximum_block_size": 1228800000,
+    "maximum_time_until_expiration": 86400,
+    "maximum_proposal_lifetime": 2419200,
+    "maximum_asset_whitelist_authorities": 10,
+    "maximum_asset_feed_publishers": 10,
+    "maximum_delegate_count": 1001,
+    "maximum_council_count": 1001,
+    "maximum_authority_membership": 10,
+    "reserve_percent_of_fee": 2000,
+    "network_percent_of_fee": 2000,
+    "lifetime_referrer_percent_of_fee": 3000,
+    "cashback_vesting_period_seconds": 31536000,
+    "cashback_vesting_threshold": 10000000,
+    "count_non_member_votes": true,
+    "allow_non_member_whitelists": false,
+    "delegate_pay_per_block": 100000,
+    "worker_budget_per_day": "50000000000",
+    "max_predicate_opcode": 1,
+    "fee_liquidation_threshold": 10000000,
+    "accounts_per_fee_scale": 1000,
+    "account_fee_scale_bitshifts": 4,
+    "max_authority_depth": 2,
+    "extensions": []
+  },
+  "initial_accounts": [{
+      "name": "init0",
+      "owner_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd",
+      "active_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd",
+      "is_lifetime_member": true
+    },{
+      "name": "init1",
+      "owner_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd",
+      "active_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd",
+      "is_lifetime_member": true
+    },{
+      "name": "init2",
+      "owner_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd",
+      "active_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd",
+      "is_lifetime_member": true
+    },{
+      "name": "init3",
+      "owner_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd",
+      "active_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd",
+      "is_lifetime_member": true
+    },{
+      "name": "init4",
+      "owner_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd",
+      "active_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd",
+      "is_lifetime_member": true
+    },{
+      "name": "init5",
+      "owner_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd",
+      "active_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd",
+      "is_lifetime_member": true
+    },{
+      "name": "init6",
+      "owner_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd",
+      "active_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd",
+      "is_lifetime_member": true
+    },{
+      "name": "init7",
+      "owner_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd",
+      "active_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd",
+      "is_lifetime_member": true
+    },{
+      "name": "init8",
+      "owner_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd",
+      "active_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd",
+      "is_lifetime_member": true
+    },{
+      "name": "init9",
+      "owner_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd",
+      "active_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd",
+      "is_lifetime_member": true
+    },{
+      "name": "init10",
+      "owner_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd",
+      "active_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd",
+      "is_lifetime_member": true
+    },{
+      "name": "init11",
+      "owner_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd",
+      "active_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd",
+      "is_lifetime_member": true
+    },{
+      "name": "init12",
+      "owner_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd",
+      "active_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd",
+      "is_lifetime_member": true
+    },{
+      "name": "init13",
+      "owner_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd",
+      "active_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd",
+      "is_lifetime_member": true
+    },{
+      "name": "init14",
+      "owner_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd",
+      "active_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd",
+      "is_lifetime_member": true
+    },{
+      "name": "init15",
+      "owner_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd",
+      "active_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd",
+      "is_lifetime_member": true
+    },{
+      "name": "init16",
+      "owner_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd",
+      "active_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd",
+      "is_lifetime_member": true
+    },{
+      "name": "init17",
+      "owner_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd",
+      "active_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd",
+      "is_lifetime_member": true
+    },{
+      "name": "init18",
+      "owner_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd",
+      "active_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd",
+      "is_lifetime_member": true
+    },{
+      "name": "init19",
+      "owner_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd",
+      "active_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd",
+      "is_lifetime_member": true
+    },{
+      "name": "init20",
+      "owner_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd",
+      "active_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd",
+      "is_lifetime_member": true
+    },{
+      "name": "init21",
+      "owner_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd",
+      "active_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd",
+      "is_lifetime_member": true
+    },{
+      "name": "init22",
+      "owner_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd",
+      "active_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd",
+      "is_lifetime_member": true
+    },{
+      "name": "init23",
+      "owner_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd",
+      "active_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd",
+      "is_lifetime_member": true
+    },{
+      "name": "init24",
+      "owner_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd",
+      "active_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd",
+      "is_lifetime_member": true
+    },{
+      "name": "init25",
+      "owner_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd",
+      "active_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd",
+      "is_lifetime_member": true
+    },{
+      "name": "init26",
+      "owner_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd",
+      "active_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd",
+      "is_lifetime_member": true
+    },{
+      "name": "init27",
+      "owner_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd",
+      "active_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd",
+      "is_lifetime_member": true
+    },{
+      "name": "init28",
+      "owner_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd",
+      "active_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd",
+      "is_lifetime_member": true
+    },{
+      "name": "init29",
+      "owner_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd",
+      "active_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd",
+      "is_lifetime_member": true
+    },{
+      "name": "init30",
+      "owner_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd",
+      "active_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd",
+      "is_lifetime_member": true
+    },{
+      "name": "init31",
+      "owner_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd",
+      "active_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd",
+      "is_lifetime_member": true
+    },{
+      "name": "init32",
+      "owner_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd",
+      "active_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd",
+      "is_lifetime_member": true
+    },{
+      "name": "init33",
+      "owner_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd",
+      "active_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd",
+      "is_lifetime_member": true
+    },{
+      "name": "init34",
+      "owner_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd",
+      "active_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd",
+      "is_lifetime_member": true
+    },{
+      "name": "init35",
+      "owner_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd",
+      "active_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd",
+      "is_lifetime_member": true
+    },{
+      "name": "init36",
+      "owner_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd",
+      "active_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd",
+      "is_lifetime_member": true
+    },{
+      "name": "init37",
+      "owner_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd",
+      "active_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd",
+      "is_lifetime_member": true
+    },{
+      "name": "init38",
+      "owner_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd",
+      "active_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd",
+      "is_lifetime_member": true
+    },{
+      "name": "init39",
+      "owner_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd",
+      "active_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd",
+      "is_lifetime_member": true
+    },{
+      "name": "init40",
+      "owner_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd",
+      "active_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd",
+      "is_lifetime_member": true
+    },{
+      "name": "init41",
+      "owner_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd",
+      "active_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd",
+      "is_lifetime_member": true
+    },{
+      "name": "init42",
+      "owner_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd",
+      "active_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd",
+      "is_lifetime_member": true
+    },{
+      "name": "init43",
+      "owner_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd",
+      "active_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd",
+      "is_lifetime_member": true
+    },{
+      "name": "init44",
+      "owner_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd",
+      "active_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd",
+      "is_lifetime_member": true
+    },{
+      "name": "init45",
+      "owner_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd",
+      "active_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd",
+      "is_lifetime_member": true
+    },{
+      "name": "init46",
+      "owner_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd",
+      "active_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd",
+      "is_lifetime_member": true
+    },{
+      "name": "init47",
+      "owner_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd",
+      "active_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd",
+      "is_lifetime_member": true
+    },{
+      "name": "init48",
+      "owner_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd",
+      "active_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd",
+      "is_lifetime_member": true
+    },{
+      "name": "init49",
+      "owner_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd",
+      "active_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd",
+      "is_lifetime_member": true
+    },{
+      "name": "init50",
+      "owner_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd",
+      "active_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd",
+      "is_lifetime_member": true
+    },{
+      "name": "init51",
+      "owner_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd",
+      "active_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd",
+      "is_lifetime_member": true
+    },{
+      "name": "init52",
+      "owner_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd",
+      "active_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd",
+      "is_lifetime_member": true
+    },{
+      "name": "init53",
+      "owner_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd",
+      "active_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd",
+      "is_lifetime_member": true
+    },{
+      "name": "init54",
+      "owner_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd",
+      "active_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd",
+      "is_lifetime_member": true
+    },{
+      "name": "init55",
+      "owner_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd",
+      "active_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd",
+      "is_lifetime_member": true
+    },{
+      "name": "init56",
+      "owner_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd",
+      "active_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd",
+      "is_lifetime_member": true
+    },{
+      "name": "init57",
+      "owner_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd",
+      "active_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd",
+      "is_lifetime_member": true
+    },{
+      "name": "init58",
+      "owner_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd",
+      "active_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd",
+      "is_lifetime_member": true
+    },{
+      "name": "init59",
+      "owner_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd",
+      "active_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd",
+      "is_lifetime_member": true
+    },{
+      "name": "init60",
+      "owner_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd",
+      "active_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd",
+      "is_lifetime_member": true
+    },{
+      "name": "init61",
+      "owner_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd",
+      "active_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd",
+      "is_lifetime_member": true
+    },{
+      "name": "init62",
+      "owner_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd",
+      "active_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd",
+      "is_lifetime_member": true
+    },{
+      "name": "init63",
+      "owner_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd",
+      "active_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd",
+      "is_lifetime_member": true
+    },{
+      "name": "init64",
+      "owner_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd",
+      "active_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd",
+      "is_lifetime_member": true
+    },{
+      "name": "init65",
+      "owner_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd",
+      "active_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd",
+      "is_lifetime_member": true
+    },{
+      "name": "init66",
+      "owner_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd",
+      "active_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd",
+      "is_lifetime_member": true
+    },{
+      "name": "init67",
+      "owner_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd",
+      "active_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd",
+      "is_lifetime_member": true
+    },{
+      "name": "init68",
+      "owner_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd",
+      "active_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd",
+      "is_lifetime_member": true
+    },{
+      "name": "init69",
+      "owner_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd",
+      "active_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd",
+      "is_lifetime_member": true
+    },{
+      "name": "init70",
+      "owner_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd",
+      "active_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd",
+      "is_lifetime_member": true
+    },{
+      "name": "init71",
+      "owner_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd",
+      "active_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd",
+      "is_lifetime_member": true
+    },{
+      "name": "init72",
+      "owner_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd",
+      "active_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd",
+      "is_lifetime_member": true
+    },{
+      "name": "init73",
+      "owner_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd",
+      "active_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd",
+      "is_lifetime_member": true
+    },{
+      "name": "init74",
+      "owner_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd",
+      "active_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd",
+      "is_lifetime_member": true
+    },{
+      "name": "init75",
+      "owner_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd",
+      "active_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd",
+      "is_lifetime_member": true
+    },{
+      "name": "init76",
+      "owner_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd",
+      "active_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd",
+      "is_lifetime_member": true
+    },{
+      "name": "init77",
+      "owner_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd",
+      "active_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd",
+      "is_lifetime_member": true
+    },{
+      "name": "init78",
+      "owner_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd",
+      "active_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd",
+      "is_lifetime_member": true
+    },{
+      "name": "init79",
+      "owner_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd",
+      "active_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd",
+      "is_lifetime_member": true
+    },{
+      "name": "init80",
+      "owner_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd",
+      "active_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd",
+      "is_lifetime_member": true
+    },{
+      "name": "init81",
+      "owner_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd",
+      "active_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd",
+      "is_lifetime_member": true
+    },{
+      "name": "init82",
+      "owner_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd",
+      "active_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd",
+      "is_lifetime_member": true
+    },{
+      "name": "init83",
+      "owner_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd",
+      "active_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd",
+      "is_lifetime_member": true
+    },{
+      "name": "init84",
+      "owner_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd",
+      "active_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd",
+      "is_lifetime_member": true
+    },{
+      "name": "init85",
+      "owner_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd",
+      "active_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd",
+      "is_lifetime_member": true
+    },{
+      "name": "init86",
+      "owner_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd",
+      "active_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd",
+      "is_lifetime_member": true
+    },{
+      "name": "init87",
+      "owner_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd",
+      "active_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd",
+      "is_lifetime_member": true
+    },{
+      "name": "init88",
+      "owner_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd",
+      "active_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd",
+      "is_lifetime_member": true
+    },{
+      "name": "init89",
+      "owner_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd",
+      "active_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd",
+      "is_lifetime_member": true
+    },{
+      "name": "init90",
+      "owner_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd",
+      "active_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd",
+      "is_lifetime_member": true
+    },{
+      "name": "init91",
+      "owner_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd",
+      "active_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd",
+      "is_lifetime_member": true
+    },{
+      "name": "init92",
+      "owner_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd",
+      "active_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd",
+      "is_lifetime_member": true
+    },{
+      "name": "init93",
+      "owner_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd",
+      "active_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd",
+      "is_lifetime_member": true
+    },{
+      "name": "init94",
+      "owner_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd",
+      "active_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd",
+      "is_lifetime_member": true
+    },{
+      "name": "init95",
+      "owner_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd",
+      "active_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd",
+      "is_lifetime_member": true
+    },{
+      "name": "init96",
+      "owner_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd",
+      "active_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd",
+      "is_lifetime_member": true
+    },{
+      "name": "init97",
+      "owner_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd",
+      "active_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd",
+      "is_lifetime_member": true
+    },{
+      "name": "init98",
+      "owner_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd",
+      "active_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd",
+      "is_lifetime_member": true
+    },{
+      "name": "init99",
+      "owner_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd",
+      "active_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd",
+      "is_lifetime_member": true
+    },{
+      "name": "init100",
+      "owner_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd",
+      "active_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd",
+      "is_lifetime_member": true
+    },{
+      "name": "capricorn",
+      "owner_key": "OPS58qWr57CrqxFANEkZwEMPUurUzDaLCMujc5hdZRKrUPSKUNj7T",
+      "active_key": "OPS58qWr57CrqxFANEkZwEMPUurUzDaLCMujc5hdZRKrUPSKUNj7T",
+      "is_lifetime_member": true
+    }
+  ],
+  "initial_assets": [],
+  "initial_balances": [{
+      "owner": "OPS3e7AdVkFuKadzULity5HgbUKGwS4wVYWc",
+      "asset_symbol": "OPS",
+      "amount": "100000000000000"
+    }
+  ],
+  "initial_vesting_balances": [],
+  "initial_active_delegates": 101,
+  "initial_delegate_candidates": [{
+      "owner_name": "init0",
+      "block_signing_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd"
+    },{
+      "owner_name": "init1",
+      "block_signing_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd"
+    },{
+      "owner_name": "init2",
+      "block_signing_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd"
+    },{
+      "owner_name": "init3",
+      "block_signing_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd"
+    },{
+      "owner_name": "init4",
+      "block_signing_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd"
+    },{
+      "owner_name": "init5",
+      "block_signing_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd"
+    },{
+      "owner_name": "init6",
+      "block_signing_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd"
+    },{
+      "owner_name": "init7",
+      "block_signing_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd"
+    },{
+      "owner_name": "init8",
+      "block_signing_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd"
+    },{
+      "owner_name": "init9",
+      "block_signing_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd"
+    },{
+      "owner_name": "init10",
+      "block_signing_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd"
+    },{
+      "owner_name": "init11",
+      "block_signing_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd"
+    },{
+      "owner_name": "init12",
+      "block_signing_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd"
+    },{
+      "owner_name": "init13",
+      "block_signing_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd"
+    },{
+      "owner_name": "init14",
+      "block_signing_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd"
+    },{
+      "owner_name": "init15",
+      "block_signing_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd"
+    },{
+      "owner_name": "init16",
+      "block_signing_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd"
+    },{
+      "owner_name": "init17",
+      "block_signing_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd"
+    },{
+      "owner_name": "init18",
+      "block_signing_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd"
+    },{
+      "owner_name": "init19",
+      "block_signing_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd"
+    },{
+      "owner_name": "init20",
+      "block_signing_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd"
+    },{
+      "owner_name": "init21",
+      "block_signing_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd"
+    },{
+      "owner_name": "init22",
+      "block_signing_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd"
+    },{
+      "owner_name": "init23",
+      "block_signing_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd"
+    },{
+      "owner_name": "init24",
+      "block_signing_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd"
+    },{
+      "owner_name": "init25",
+      "block_signing_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd"
+    },{
+      "owner_name": "init26",
+      "block_signing_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd"
+    },{
+      "owner_name": "init27",
+      "block_signing_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd"
+    },{
+      "owner_name": "init28",
+      "block_signing_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd"
+    },{
+      "owner_name": "init29",
+      "block_signing_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd"
+    },{
+      "owner_name": "init30",
+      "block_signing_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd"
+    },{
+      "owner_name": "init31",
+      "block_signing_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd"
+    },{
+      "owner_name": "init32",
+      "block_signing_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd"
+    },{
+      "owner_name": "init33",
+      "block_signing_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd"
+    },{
+      "owner_name": "init34",
+      "block_signing_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd"
+    },{
+      "owner_name": "init35",
+      "block_signing_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd"
+    },{
+      "owner_name": "init36",
+      "block_signing_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd"
+    },{
+      "owner_name": "init37",
+      "block_signing_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd"
+    },{
+      "owner_name": "init38",
+      "block_signing_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd"
+    },{
+      "owner_name": "init39",
+      "block_signing_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd"
+    },{
+      "owner_name": "init40",
+      "block_signing_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd"
+    },{
+      "owner_name": "init41",
+      "block_signing_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd"
+    },{
+      "owner_name": "init42",
+      "block_signing_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd"
+    },{
+      "owner_name": "init43",
+      "block_signing_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd"
+    },{
+      "owner_name": "init44",
+      "block_signing_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd"
+    },{
+      "owner_name": "init45",
+      "block_signing_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd"
+    },{
+      "owner_name": "init46",
+      "block_signing_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd"
+    },{
+      "owner_name": "init47",
+      "block_signing_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd"
+    },{
+      "owner_name": "init48",
+      "block_signing_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd"
+    },{
+      "owner_name": "init49",
+      "block_signing_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd"
+    },{
+      "owner_name": "init50",
+      "block_signing_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd"
+    },{
+      "owner_name": "init51",
+      "block_signing_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd"
+    },{
+      "owner_name": "init52",
+      "block_signing_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd"
+    },{
+      "owner_name": "init53",
+      "block_signing_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd"
+    },{
+      "owner_name": "init54",
+      "block_signing_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd"
+    },{
+      "owner_name": "init55",
+      "block_signing_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd"
+    },{
+      "owner_name": "init56",
+      "block_signing_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd"
+    },{
+      "owner_name": "init57",
+      "block_signing_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd"
+    },{
+      "owner_name": "init58",
+      "block_signing_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd"
+    },{
+      "owner_name": "init59",
+      "block_signing_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd"
+    },{
+      "owner_name": "init60",
+      "block_signing_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd"
+    },{
+      "owner_name": "init61",
+      "block_signing_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd"
+    },{
+      "owner_name": "init62",
+      "block_signing_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd"
+    },{
+      "owner_name": "init63",
+      "block_signing_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd"
+    },{
+      "owner_name": "init64",
+      "block_signing_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd"
+    },{
+      "owner_name": "init65",
+      "block_signing_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd"
+    },{
+      "owner_name": "init66",
+      "block_signing_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd"
+    },{
+      "owner_name": "init67",
+      "block_signing_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd"
+    },{
+      "owner_name": "init68",
+      "block_signing_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd"
+    },{
+      "owner_name": "init69",
+      "block_signing_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd"
+    },{
+      "owner_name": "init70",
+      "block_signing_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd"
+    },{
+      "owner_name": "init71",
+      "block_signing_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd"
+    },{
+      "owner_name": "init72",
+      "block_signing_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd"
+    },{
+      "owner_name": "init73",
+      "block_signing_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd"
+    },{
+      "owner_name": "init74",
+      "block_signing_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd"
+    },{
+      "owner_name": "init75",
+      "block_signing_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd"
+    },{
+      "owner_name": "init76",
+      "block_signing_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd"
+    },{
+      "owner_name": "init77",
+      "block_signing_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd"
+    },{
+      "owner_name": "init78",
+      "block_signing_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd"
+    },{
+      "owner_name": "init79",
+      "block_signing_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd"
+    },{
+      "owner_name": "init80",
+      "block_signing_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd"
+    },{
+      "owner_name": "init81",
+      "block_signing_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd"
+    },{
+      "owner_name": "init82",
+      "block_signing_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd"
+    },{
+      "owner_name": "init83",
+      "block_signing_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd"
+    },{
+      "owner_name": "init84",
+      "block_signing_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd"
+    },{
+      "owner_name": "init85",
+      "block_signing_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd"
+    },{
+      "owner_name": "init86",
+      "block_signing_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd"
+    },{
+      "owner_name": "init87",
+      "block_signing_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd"
+    },{
+      "owner_name": "init88",
+      "block_signing_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd"
+    },{
+      "owner_name": "init89",
+      "block_signing_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd"
+    },{
+      "owner_name": "init90",
+      "block_signing_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd"
+    },{
+      "owner_name": "init91",
+      "block_signing_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd"
+    },{
+      "owner_name": "init92",
+      "block_signing_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd"
+    },{
+      "owner_name": "init93",
+      "block_signing_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd"
+    },{
+      "owner_name": "init94",
+      "block_signing_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd"
+    },{
+      "owner_name": "init95",
+      "block_signing_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd"
+    },{
+      "owner_name": "init96",
+      "block_signing_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd"
+    },{
+      "owner_name": "init97",
+      "block_signing_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd"
+    },{
+      "owner_name": "init98",
+      "block_signing_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd"
+    },{
+      "owner_name": "init99",
+      "block_signing_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd"
+    },{
+      "owner_name": "init100",
+      "block_signing_key": "OPS5GtKQWEo63CAHjYTExDdrg1nFmTtbKSm1LwNA9s46tLEMKHdNd"
+    }
+  ],
+  "initial_council_candidates": [{
+      "owner_name": "init0"
+    },{
+      "owner_name": "init1"
+    },{
+      "owner_name": "init2"
+    },{
+      "owner_name": "init3"
+    },{
+      "owner_name": "init4"
+    },{
+      "owner_name": "init5"
+    },{
+      "owner_name": "init6"
+    },{
+      "owner_name": "init7"
+    },{
+      "owner_name": "init8"
+    },{
+      "owner_name": "init9"
+    },{
+      "owner_name": "init10"
+    },{
+      "owner_name": "init11"
+    },{
+      "owner_name": "init12"
+    },{
+      "owner_name": "init13"
+    },{
+      "owner_name": "init14"
+    },{
+      "owner_name": "init15"
+    },{
+      "owner_name": "init16"
+    },{
+      "owner_name": "init17"
+    },{
+      "owner_name": "init18"
+    },{
+      "owner_name": "init19"
+    },{
+      "owner_name": "init20"
+    },{
+      "owner_name": "init21"
+    },{
+      "owner_name": "init22"
+    },{
+      "owner_name": "init23"
+    },{
+      "owner_name": "init24"
+    },{
+      "owner_name": "init25"
+    },{
+      "owner_name": "init26"
+    },{
+      "owner_name": "init27"
+    },{
+      "owner_name": "init28"
+    },{
+      "owner_name": "init29"
+    },{
+      "owner_name": "init30"
+    },{
+      "owner_name": "init31"
+    },{
+      "owner_name": "init32"
+    },{
+      "owner_name": "init33"
+    },{
+      "owner_name": "init34"
+    },{
+      "owner_name": "init35"
+    },{
+      "owner_name": "init36"
+    },{
+      "owner_name": "init37"
+    },{
+      "owner_name": "init38"
+    },{
+      "owner_name": "init39"
+    },{
+      "owner_name": "init40"
+    },{
+      "owner_name": "init41"
+    },{
+      "owner_name": "init42"
+    },{
+      "owner_name": "init43"
+    },{
+      "owner_name": "init44"
+    },{
+      "owner_name": "init45"
+    },{
+      "owner_name": "init46"
+    },{
+      "owner_name": "init47"
+    },{
+      "owner_name": "init48"
+    },{
+      "owner_name": "init49"
+    },{
+      "owner_name": "init50"
+    },{
+      "owner_name": "init51"
+    },{
+      "owner_name": "init52"
+    },{
+      "owner_name": "init53"
+    },{
+      "owner_name": "init54"
+    },{
+      "owner_name": "init55"
+    },{
+      "owner_name": "init56"
+    },{
+      "owner_name": "init57"
+    },{
+      "owner_name": "init58"
+    },{
+      "owner_name": "init59"
+    },{
+      "owner_name": "init60"
+    },{
+      "owner_name": "init61"
+    },{
+      "owner_name": "init62"
+    },{
+      "owner_name": "init63"
+    },{
+      "owner_name": "init64"
+    },{
+      "owner_name": "init65"
+    },{
+      "owner_name": "init66"
+    },{
+      "owner_name": "init67"
+    },{
+      "owner_name": "init68"
+    },{
+      "owner_name": "init69"
+    },{
+      "owner_name": "init70"
+    },{
+      "owner_name": "init71"
+    },{
+      "owner_name": "init72"
+    },{
+      "owner_name": "init73"
+    },{
+      "owner_name": "init74"
+    },{
+      "owner_name": "init75"
+    },{
+      "owner_name": "init76"
+    },{
+      "owner_name": "init77"
+    },{
+      "owner_name": "init78"
+    },{
+      "owner_name": "init79"
+    },{
+      "owner_name": "init80"
+    },{
+      "owner_name": "init81"
+    },{
+      "owner_name": "init82"
+    },{
+      "owner_name": "init83"
+    },{
+      "owner_name": "init84"
+    },{
+      "owner_name": "init85"
+    },{
+      "owner_name": "init86"
+    },{
+      "owner_name": "init87"
+    },{
+      "owner_name": "init88"
+    },{
+      "owner_name": "init89"
+    },{
+      "owner_name": "init90"
+    },{
+      "owner_name": "init91"
+    },{
+      "owner_name": "init92"
+    },{
+      "owner_name": "init93"
+    },{
+      "owner_name": "init94"
+    },{
+      "owner_name": "init95"
+    },{
+      "owner_name": "init96"
+    },{
+      "owner_name": "init97"
+    },{
+      "owner_name": "init98"
+    },{
+      "owner_name": "init99"
+    },{
+      "owner_name": "init100"
+    }
+  ],
+  "initial_worker_candidates": [],
+  "initial_chain_id": "aa34045518f1469a28fa4578240d5f039afa9959c0b95ce3b39674efa691fb21",
+  "immutable_parameters": {
+    "min_council_member_count": 101,
+    "min_delegate_count": 101,
+    "num_special_accounts": 0,
+    "num_special_assets": 0
+  }
+}

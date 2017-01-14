@@ -1,0 +1,14 @@
+#include <stdint.h>
+#include <capricorn/utilities/git_revision.hpp>
+
+#define CAPRICORN_GIT_REVISION_SHA "@CAPRICORN_GIT_REVISION_SHA@"
+#define CAPRICORN_GIT_REVISION_UNIX_TIMESTAMP @CAPRICORN_GIT_REVISION_UNIX_TIMESTAMP@
+#define CAPRICORN_GIT_REVISION_DESCRIPTION "@CAPRICORN_GIT_REVISION_DESCRIPTION@"
+
+namespace capricorn { namespace utilities {
+
+const char* const git_revision_sha = CAPRICORN_GIT_REVISION_SHA;
+const uint32_t git_revision_unix_timestamp = CAPRICORN_GIT_REVISION_UNIX_TIMESTAMP;
+const char* const git_revision_description = CAPRICORN_GIT_REVISION_DESCRIPTION;
+
+} } // end namespace capricorn::utilities

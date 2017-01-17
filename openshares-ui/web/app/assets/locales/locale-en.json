@@ -914,7 +914,7 @@
     "import_ops": "Import a OPS 0.9.3c key export",
     "import_private_key": "Import a private key",
     "wallet_browser": "Your Web Browser is your Wallet",
-    "has_wallet": "When you create your first Openshares account, a Openshares wallet will be automatically created as well and stored in your browser.",
+    "has_wallet": "When you create your first Openshares account, an Openshares wallet will be automatically created as well and stored in your browser.",
     "go_get_started": "See Get Started tips",
     "wallet_crucial": "Your wallet is only stored in your browser, so it is crucial that you create a backup that will enable you to recover your wallet if the data in your browser is lost!",
     "wallet_move": "This backup file can also be used to move your wallet to different computers or different browsers.",

@@ -426,7 +426,7 @@ void database::clear_expired_orders()
    }
 } FC_CAPTURE_AND_RETHROW() }
 
-void database::update_expired_feeds()
+void database::update_feeds()
 {
    auto& asset_idx = get_index_type<asset_index>().indices().get<by_type>();
    auto itr = asset_idx.lower_bound( true /** market issued */ );
